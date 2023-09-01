@@ -1,0 +1,17 @@
+<!-- activity_splash.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary">
+
+    <!-- Animation view -->
+    <ImageView
+        android:id="@+id/splash_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <!-- Other branding elements (e.g., app logo, name, etc.) -->
+
+</RelativeLayout>
